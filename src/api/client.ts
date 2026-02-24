@@ -9,7 +9,7 @@ export function getClient(): Octokit {
   const token = getToken();
   _client = new Octokit({
     auth: token,
-    userAgent: "ghf/1.0.0",
+    userAgent: "ghf/1.1.3",
     // Octokit's built-in request handling already respects Retry-After headers.
     // We layer on friendly error messages via friendlyError() in each command.
   });

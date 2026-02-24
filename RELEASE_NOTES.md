@@ -1,18 +1,23 @@
-# Release Notes - v1.1.2 (Official Launch Patch) 🚀
+# Release Notes - v1.1.3 (Official Launch Final) 🚀
 
-While `v1.1.1` was the intended official launch, `v1.1.2` is being released immediately as a **Day 0 Optimization** to ensure a professional and performant installation experience.
-
----
-
-## 🚀 What's New in v1.1.2 (Day 0 Optimization)
-- **⚡ Package Slimming**: Fixed an issue where the entire source code and test suite were being included in the npm package.
-- **📦 Clean Installs**: The package now only includes the compiled `dist/` directory and essential metadata, significantly reducing the install size and ensuring the `ghf` command works correctly across all environments.
+This is the final official launch version of `github-finds` (`ghf`). It incorporates all critical Day 0 fixes, registry optimizations, and internal version alignments.
 
 ---
 
-## ✅ v1.1.1 (Official Launch & Registry Fix)
+## 🚀 What's New in v1.1.3 (Internal Alignment)
+- **🔢 Version Sync**: Synchronized internal CLI and API client versions to `1.1.3` to match the official package release.
+- **🛡️ Full Feature Set**: Officially transitioned the project from a prototype to a production-ready CLI.
+
+---
+
+## ✅ v1.1.2 (Day 0 Optimization Patch)
+- **⚡ Package Slimming**: Optimized the npm package by excluding source code and tests, drastically reducing install size.
+- **📦 Clean Installs**: Ensured the package only includes compiled `dist/` directory for correct command execution across all environments.
+
+---
+
+## ✅ v1.1.1 (Registry Fix)
 - **🛠️ Registry Metadata**: Fixed critical npm provenance issues by populating repository, bugs, and homepage metadata.
-- **🌟 Full Feature Set**: Officially transitioned the project from a prototype to a production-ready CLI.
 
 ---
 
@@ -69,4 +74,4 @@ npm install -g github-finds
 ---
 
 ## 🤝 Contributing
-Contributions are welcome! Check out our `CODEOWNERS` and feel free to open an issue or pull request on [GitHub](https://github.com/anishhs-gh/github-finds).
+Contributions are welcome! Check out our [GitHub](https://github.com/anishhs-gh/github-finds).

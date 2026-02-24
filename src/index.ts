@@ -22,7 +22,7 @@ program
     "  Run any command with --help to see available options.\n" +
     "  Get started: ghf auth login"
   )
-  .version("1.0.0", "-v, --version", "Show version")
+  .version("1.1.3", "-v, --version", "Show version")
   .addHelpText(
     "after",
     `
