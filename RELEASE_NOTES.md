@@ -1,11 +1,18 @@
-# Release Notes - v1.1.1 (Official Launch) 🚀
+# Release Notes - v1.1.2 (Official Launch Patch) 🚀
 
-This release marks the official public launch of `github-finds` (`ghf`). It combines the foundational features of the v1.0.0 prototype with the professional-grade stability and developer experience improvements of v1.1.0 and v1.1.1.
+While `v1.1.1` was the intended official launch, `v1.1.2` is being released immediately as a **Day 0 Optimization** to ensure a professional and performant installation experience.
 
 ---
 
-## 🚀 What's New in v1.1.1 (Official Registry Fix)
-- **📦 Registry Metadata**: Fixed a critical issue with npm provenance by correctly populating repository, bugs, and homepage metadata in `package.json`. This ensures a secure and verified publish to the npm registry.
+## 🚀 What's New in v1.1.2 (Day 0 Optimization)
+- **⚡ Package Slimming**: Fixed an issue where the entire source code and test suite were being included in the npm package.
+- **📦 Clean Installs**: The package now only includes the compiled `dist/` directory and essential metadata, significantly reducing the install size and ensuring the `ghf` command works correctly across all environments.
+
+---
+
+## ✅ v1.1.1 (Official Launch & Registry Fix)
+- **🛠️ Registry Metadata**: Fixed critical npm provenance issues by populating repository, bugs, and homepage metadata.
+- **🌟 Full Feature Set**: Officially transitioned the project from a prototype to a production-ready CLI.
 
 ---
 
