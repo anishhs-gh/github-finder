@@ -2,7 +2,7 @@ import Conf from "conf";
 import type { AppConfig } from "../types/index.js";
 
 const store = new Conf<AppConfig>({
-  projectName: "github-finder",
+  projectName: "github-finds",
   schema: {
     token: { type: "string" },
   },

@@ -1,4 +1,4 @@
-# github-finder — Feature Feasibility Document
+# github-finds — Feature Feasibility Document
 
 This document covers every meaningful GitHub REST API capability and whether it can be implemented in a CLI app, with reasons for any limitations.
 
